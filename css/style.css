@@ -274,3 +274,10 @@ h1, h2, h3, h4 {
 .slider__img:not(.slider__img_cut) {
     margin-right: 30px;
 }
+
+.msg {
+    margin: 0 auto;
+    font-size: 24px;
+    background-color: dimgray;
+    color: white;
+}
