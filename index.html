@@ -5,8 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
 </head>
 <body>
 <div class="container">
@@ -14,17 +15,17 @@
     <header class="header">
         <h1 class="hide">webdev</h1>
         <div class="header-wrapper">
-            <div class="logo">
-                <a href="#">
-                    <img src="./assets/logo.svg" alt="webdev logo">
-                </a>
-            </div>
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a class="nav__link" href="#">About</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">Syllabus</a></li>
+                    <li class='logo'>
+                        <a href="#">
+                            <img src="./assets/logo.svg" alt="webdev logo">
+                        </a>
+                    </li>
                     <li class="nav__item"><a class="nav__link" href="#">Projects</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#">Faq</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">FAQ</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,7 +37,7 @@
                 <div class="your-life__inner">
                     <h2 class="section-title">your life is WebDev</h2>
                     <p class="your-life__descr">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
-                    <button class="btn">get started</button>
+                    <button class="btn your-life__btn">get started</button>
                     <ul class="social">
                         <li class="social__item"><a href=""><img src="./assets/social/mail.svg" alt="mail"></a></li>
                         <li class="social__item"><a href=""><img src="./assets/social/facebook.svg" alt="facebook"></a></li>
@@ -46,7 +47,14 @@
                 </div>
             </div>
         </section>
-        <section class="rappresent"></section>
+        <section class="rappresent">
+            <div class="rappresent-inner">
+                <h3 class="rappresent__title">Rappresent your idea with a smart Design</h3>
+                <p class="rappresent__descr">Tasks accompanying and related to programming include: testing, debugging, source code maintenance, implementation of build systems, and management of derived artifacts, such as the machine code of computer programs.</p>
+                <button class="btn rappresent__btn">get started</button>
+            </div>
+            <img src="./assets/content-image-1.jpg" alt="photo">
+        </section>
         <section class="community"></section>
         <section class="implement"></section>
         <section class="sign-up"></section>

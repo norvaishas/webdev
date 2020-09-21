@@ -13,6 +13,7 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
+    color: #A69F94;;
 }
 
 ul {
@@ -34,6 +35,10 @@ ul {
     display: flex;
     width: 100%;
     height: 70px;
+}
+
+h1, h2, h3 {
+    margin: 0;
 }
 
 .header-wrapper {
@@ -58,18 +63,33 @@ ul {
     padding: 0;
 }
 
-.logo {
-    position: absolute;
-    top: 0;
-    left: 50%;
-}
-
 .nav__list {
     display: flex;
+    justify-content: space-between;
+    width: 595px;
+    margin: 0 auto;
+    padding-top: 3px;
+    align-items: center;
 }
 
 .nav__item {
-    margin: 0 43px;
+    /*margin: 0 43px;*/
+}
+
+.logo {
+    padding: 0 26px;
+}
+
+.nav__item:nth-child(2) {
+    margin-left: 9px;
+}
+
+.nav__item:nth-child(4) {
+    margin-right: 11px;
+}
+
+.nav__item:nth-child(5) {
+    margin-right: 13px;
 }
 
 .nav__link {
@@ -89,6 +109,7 @@ ul {
 .your-life {
     width: 100%;
     height: 674px;
+    color: rgb(208, 203, 196);
 }
 
 .your-life__background {
@@ -111,38 +132,44 @@ ul {
 }
 
 .section-title {
-    margin: 0;
-    padding-left: 4px;
-    height: 75px;
-    font-size: 6.4rem;
-    font-weight: 700;
-    color: #fff;
     text-transform: uppercase;
-    letter-spacing: 4.6px;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 4.5px;
+    padding-left: 4px;
+    margin: 18px 0 21px 0;
 }
 
 .your-life__descr {
     width: 504px;
-    height: 50px;
-    font-size: 1.8rem;
     font-weight: 400;
-    color: #fff;
+    font-size: 18px;
+    margin: 0 auto;
     text-align: center;
-    line-height: 2.5rem;
+    line-height: 140%;
+    /*margin-bottom: 29px;*/
 }
 
 .btn {
-    margin: 30px 0 0 0;
-    padding: 0 4px 0 4px;
     width: 184px;
     min-height: 46px;
-    background-color: #00AFDB;
-    font-size: 1.4rem;
-    font-weight: 700;
     color: #fff;
-    text-transform: uppercase;
+    background-color: #00AFDB;
     border: 0;
     outline: 0;
+    font-family: Roboto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+}
+
+.your-life__btn {
+    margin: 30px 0 0 0;
+
+
 }
 
 .social {
@@ -150,6 +177,35 @@ ul {
     justify-content: space-between;
     align-items: center;
     width: 170px;
-    margin: 183px auto 0 auto;
+    margin: 185px auto 0 auto;
     height: 20px;
+}
+
+.rappresent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 269px 140px 269px;
+}
+
+.rappresent-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rappresent__title {
+    width: 59%;
+    margin-bottom: 21px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.rappresent__descr {
+    font-size: 14px;
+    line-height: 20px;
+    width: 62%;
+    margin: 0 0 30px 0;
 }
