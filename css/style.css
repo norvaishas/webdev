@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 10px;
+}
+
+body {
+    height: 100%;
+    font-size: 1.4rem;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    min-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.header-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 25px;
+    z-index: 11;
+}
+
+.hide {
+    background-color: transparent;
+    color: transparent;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin: 0 43px;
+}
+
+.nav__link {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.your-life {
+    width: 100%;
+    height: 674px;
+}
+
+.your-life__background {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    height: 744px;
+    background: url("../assets/bg-image.png") no-repeat;
+}
+
+.your-life__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.section-title {
+    margin: 0;
+    padding-left: 4px;
+    height: 75px;
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4.6px;
+}
+
+.your-life__descr {
+    width: 504px;
+    height: 50px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.btn {
+    margin: 30px 0 0 0;
+    padding: 0 4px 0 4px;
+    width: 184px;
+    min-height: 46px;
+    background-color: #00AFDB;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    margin: 183px auto 0 auto;
+    height: 20px;
+}
