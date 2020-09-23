@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>webdev</title>
 </head>
 <body>
 <div class="container">
@@ -17,7 +17,7 @@
         <div class="header-wrapper">
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+                    <li class="nav__item"><a class="nav__link nav__link-active" href="#">About</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">Syllabus</a></li>
                     <li class='logo'>
                         <a href="#">
@@ -50,14 +50,15 @@
         <section class="rappresent">
             <div class="rappresent-inner">
                 <h3 class="rappresent__title">Rappresent your idea with a smart Design</h3>
-                <p class="rappresent__descr">Tasks accompanying and related to programming include: testing, debugging, source code maintenance, implementation of build systems, and management of derived artifacts, such as the machine code of computer programs.</p>
+                <p class="rappresent__descr">Tasks accompanying and related to programming include: testing, debugging, source code maintenance,
+                    <strong>implementation of build systems,</strong> and management of derived artifacts, such as the machine code of computer programs.</p>
                 <button class="btn rappresent__btn">get started</button>
             </div>
             <img src="./assets/content-image-1.jpg" alt="photo">
         </section>
         <section class="community">
             <div class="slider-control">
-                <img class="arrow-back" src="assets/prev.png" alt="back">
+                <img class="arrow-prev" src="assets/prev.png" alt="back">
                 <span class="curent-slide">1</span>
                 <span>/</span>
                 <span class="total-slide">5</span>
@@ -75,26 +76,53 @@
                     </p>
                 </div>
                 <div class="slider__items">
-                    <img src="assets/slide-1.jpg" class="slider__img"/>
-                    <img src="assets/slide-2.jpg" class="slider__img"/>
-                    <img src="assets/slide-3.jpg" class="slider__img slider__img_cut"/>
+                    <img src="assets/slide-1.jpg" alt='slider image' class="slider__img"/>
+                    <img src="assets/slide-2.jpg" alt='slider image' class="slider__img"/>
+                    <img src="assets/slide-3.jpg" alt='slider image' class="slider__img slider__img_cut"/>
                 </div>
             </div>
         </section>
-        <section class="implement"></section>
-        <section class="sign-up"></section>
-        <section class="download"></section>
+        <section class="implement">
+            <img src="./assets/content-image-2.jpg" alt="coding photo">
+            <div class="implement-inner">
+                <h3 class="implement-inner__title">Implement right Code</h3>
+                <p class="implement-inner__descr">These might be considered part of the <strong>programming process</strong>, but often the term software development is used for this larger process with the term programming, implementation</p>
+                <button class="btn implement-inner__btn">Learn more</button>
+            </div>
+        </section>
+        <section class="sign-up">
+            <h3 class="sign-up__title">sign up for our newsletter</h3>
+            <form action="#" class="form sign-up__form">
+                <input type="text" class="form__input" placeholder="E-mail">
+                <button class="btn form__btn"><img src="./assets/check-icon.png" alt=""></button>
+            </form>
+        </section>
+        <section class="download">
+            <h3 class="download__title">Download the App</h3>
+            <p class="download__descr">Machine code was the language of early programs, written in the instruction set of the particular machine, often in binary notation.</p>
+            <div class="btns download__btns">
+                <div class="btn download__btn">
+                    <span class="btn__download-text">apple store</span>
+                    <div class="btn__download-icon"><img src="./assets/apple.png" alt=""></div>
+                </div>
+                <div class="btn download__btn download__btn-right">
+                    <span class="btn__download-text">Play Market</span>
+                    <div class="btn__download-icon"><img src="./assets/android.png" alt=""></div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
-        <p class="msg">Коллеги, я не успел закончить верстку к дедлайну, поэтому отправил как есть. Если есть возможность, пожалуйста отложите проверку на некотрое время. Связаться со мной можно в
-            <a href="https://t.me/norvaishas">Telegram</a> или Discord</p>
+        <nav class="footer__nav">
+            <a href="#">Credits</a>
+            <a href="#">Privacy</a>
+            <a href="#">Our teams</a>
+        </nav>
+        <a href="#"><img src="./assets/logo.svg" alt="logo" class="footer__logo"></a>
+        <div class="copyright">by TonYem for RSS at 2020</div>
     </footer>
 </div>
-
-<script type="text/javascript">
-    alert('Коллеги, я не успел закончить верстку к дедлайну, поэтому отправил как есть. Если есть возможность, пожалуйста отложите проверку на некотрое время.')
-</script>
 
 </body>
 </html>
